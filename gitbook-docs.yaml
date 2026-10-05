@@ -1,0 +1,26 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Tutorial Spoofer Valorant
+  structure:
+    - type: section
+      key: tutorial
+      title: Tutorial
+      children:
+        - type: space
+          key: etapas-do-windows
+          title: Etapas do Windows
+          path: etapas-do-windows
+          content:
+            directory: ./1-etapas-do-windows
+        - type: space
+          key: configuracao
+          title: Configuração
+          path: configuracao
+          content:
+            directory: ./2-configuracao
+        - type: space
+          key: spoofer
+          title: Spoofer
+          path: spoofer
+          content:
+            directory: ./3-spoofer
