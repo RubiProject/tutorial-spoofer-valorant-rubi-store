@@ -9,16 +9,10 @@ site:
       default: true
       children:
         - type: space
-          key: space-formatacao
-          title: Formatação do Windows
-          path: formatacao
+          key: space-etapas
+          title: Etapas do Windows
+          path: etapas
           default: true
-          content:
-            directory: ./1-etapas-do-windows
-        - type: space
-          key: space-configuracao-win
-          title: Configuração do Windows
-          path: configuracao-win
           content:
             directory: ./1-etapas-do-windows
     - type: section
@@ -27,28 +21,10 @@ site:
       path: configuracao
       children:
         - type: space
-          key: space-defender
-          title: Desativar o Windows Defender
-          path: defender
+          key: space-configuracao
+          title: Configuração
+          path: config
           default: true
-          content:
-            directory: ./2-configuracao
-        - type: space
-          key: space-updates
-          title: Desativar atualizações do Windows
-          path: updates
-          content:
-            directory: ./2-configuracao
-        - type: space
-          key: space-flash-bios
-          title: Flash Bios
-          path: flash-bios
-          content:
-            directory: ./2-configuracao
-        - type: space
-          key: space-drivers
-          title: Drivers Necessários
-          path: drivers
           content:
             directory: ./2-configuracao
     - type: section
@@ -57,15 +33,9 @@ site:
       path: spoofer
       children:
         - type: space
-          key: space-hwid
-          title: HWID Spoofer
-          path: hwid
+          key: space-spoofer
+          title: Spoofer
+          path: spoof
           default: true
-          content:
-            directory: ./3-spoofer
-        - type: space
-          key: space-apos-finalizar
-          title: Após finalizar!
-          path: apos-finalizar
           content:
             directory: ./3-spoofer
