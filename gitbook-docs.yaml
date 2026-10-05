@@ -3,24 +3,69 @@ site:
   title: Tutorial Spoofer Valorant
   structure:
     - type: section
-      key: tutorial
-      title: Tutorial
+      key: section-etapas
+      title: Etapas do Windows
+      path: etapas-do-windows
+      default: true
       children:
         - type: space
-          key: etapas-do-windows
-          title: Etapas do Windows
-          path: etapas-do-windows
+          key: space-formatacao
+          title: Formatação do Windows
+          path: formatacao
+          default: true
           content:
             directory: ./1-etapas-do-windows
         - type: space
-          key: configuracao
-          title: Configuração
-          path: configuracao
+          key: space-configuracao-win
+          title: Configuração do Windows
+          path: configuracao-win
+          content:
+            directory: ./1-etapas-do-windows
+    - type: section
+      key: section-configuracao
+      title: Configuração
+      path: configuracao
+      children:
+        - type: space
+          key: space-defender
+          title: Desativar o Windows Defender
+          path: defender
+          default: true
           content:
             directory: ./2-configuracao
         - type: space
-          key: spoofer
-          title: Spoofer
-          path: spoofer
+          key: space-updates
+          title: Desativar atualizações do Windows
+          path: updates
+          content:
+            directory: ./2-configuracao
+        - type: space
+          key: space-flash-bios
+          title: Flash Bios
+          path: flash-bios
+          content:
+            directory: ./2-configuracao
+        - type: space
+          key: space-drivers
+          title: Drivers Necessários
+          path: drivers
+          content:
+            directory: ./2-configuracao
+    - type: section
+      key: section-spoofer
+      title: Spoofer
+      path: spoofer
+      children:
+        - type: space
+          key: space-hwid
+          title: HWID Spoofer
+          path: hwid
+          default: true
+          content:
+            directory: ./3-spoofer
+        - type: space
+          key: space-apos-finalizar
+          title: Após finalizar!
+          path: apos-finalizar
           content:
             directory: ./3-spoofer
