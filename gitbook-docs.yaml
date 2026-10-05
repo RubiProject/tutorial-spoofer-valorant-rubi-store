@@ -15,7 +15,6 @@ site:
           default: true
           content:
             directory: ./1-etapas-do-windows
-            language: pt-br
     - type: section
       key: section-configuracao
       title: Configuração
