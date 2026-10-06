@@ -1,7 +1,7 @@
 # Summary
 
 ## #1 ETAPAS DO WINDOWS
-* [Introdução](README.md)
+* [Introdução](1-etapas-do-windows/README.md)  <-- Atualize este caminho aqui
 * [Formatação do Windows](1-etapas-do-windows/formatacao-do-windows.md)
 * [Configuração do Windows](1-etapas-do-windows/configuracao-do-windows.md)
 
