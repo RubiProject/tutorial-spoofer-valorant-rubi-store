@@ -6,13 +6,13 @@ site:
       key: section-etapas
       title: Etapas do Windows
       path: etapas-do-windows
-      default: true  # <--- OBRIGATÓRIO: Define esta seção como a principal do site
+      default: true
       children:
         - type: space
           key: space-etapas
           title: Etapas do Windows
           path: etapas
-          default: true  # <--- OBRIGATÓRIO: Define este espaço como padrão desta seção
+          default: true
           content:
             directory: ./1-etapas-do-windows
     - type: section
@@ -24,7 +24,7 @@ site:
           key: space-configuracao
           title: Configuração
           path: config
-          default: true  # <--- OBRIGATÓRIO: Define este espaço como padrão desta seção
+          default: true
           content:
             directory: ./2-configuracao
     - type: section
@@ -36,6 +36,6 @@ site:
           key: space-spoofer
           title: Spoofer
           path: spoof
-          default: true  # <--- OBRIGATÓRIO: Define este espaço como padrão desta seção
+          default: true
           content:
             directory: ./3-spoofer
