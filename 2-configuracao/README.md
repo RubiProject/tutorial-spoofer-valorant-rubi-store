@@ -1,7 +1,3 @@
-# 1-desativar-o-windows-defender
-
-> For the complete documentation index, see [llms.txt](https://private-store.gitbook.io/tutorial-spoofer-valorant-private-store/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://private-store.gitbook.io/tutorial-spoofer-valorant-private-store/2-configuracao/desativar-o-windows-defender.md).
-
 ## Desativar o Windows Defender
 
 Como desabilitar o Windows Defender
